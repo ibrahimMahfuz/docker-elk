@@ -4,13 +4,16 @@
 #
 server.name: kibana
 server.host: 0.0.0.0
+server.ssl.enabled: true
+server.ssl.certificate: /usr/share/certs/elk.ia.pcsindonesia.co.id.crt
+server.ssl.key: /usr/share/certs/elk.ia.pcsindonesia.co.id.key
 elasticsearch.hosts: [ "https://elasticsearch:9200" ]
 monitoring.ui.container.elasticsearch.enabled: true
 
 ## X-Pack security credentials
 #
 elasticsearch.username: elastic
-elasticsearch.password: changeme
+elasticsearch.password: Kmzway87saa##
 
 ##
 ## TLS configuration
